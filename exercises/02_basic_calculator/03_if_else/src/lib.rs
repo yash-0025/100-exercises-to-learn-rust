@@ -2,6 +2,17 @@
 /// `13` if `n` is divisible by `3`,
 /// `17` otherwise.
 fn magic_number(n: u32) -> u32 {
+    let even_number : u32 = 12;
+    let odd_number : u32 = 13;
+    let number : u32 = 17;
+
+    if n % 2 == 0 {
+       return even_number;
+    } else if n % 3 == 0 {
+        return odd_number;
+    } else {
+        return number;
+    }
     todo!()
 }
 
