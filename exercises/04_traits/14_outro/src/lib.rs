@@ -23,7 +23,7 @@ impl From<u16> for SaturatingU16 {
 impl From<u8> for SaturatingU16 {
     fn from(value:u8) -> Self {
        Self {
-        value :value.into(),
+        value :value.into(), 
     } 
     }
 }
